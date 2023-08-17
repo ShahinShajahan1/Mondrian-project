@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container{
+      height: 748px;
+      width: 748px;
+      display: grid;
+      gap: 9px;
+      background-color: black;
+      grid-template-rows: 416px 130px 155px 20px;
+      grid-template-columns: 322px 196px 153px 50px;      
+
+    }
+
+    .red{
+      background-color: #E72F24;
+    }
+
+    .white1{
+      background-color: #F0F1EC;
+      grid-column: span 3;
+    }
+    .white2{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+
+
+    }
+    .white3{
+      background-color: #F0F1EC;
+      grid-column: span 2;    
+      grid-row: span 2;
+    }
+    .white4{
+      background-color: #F0F1EC;   
+      grid-row: span 2;
+
+    }
+
+    .blue{
+      background-color: #004592;  
+      border-bottom: 10px solid;
+    }
+
+    .white5{
+      background-color: #F0F1EC;
+    }
+    
+    .yello{
+      background-color: #F9D01E;
+    }
+
+    .blak{
+      background-color: #232629;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="red"></div>
+    <div class="white1"></div>
+    <div class="white2"></div>
+    <div class="white3"></div>
+    <div class="blue"></div>
+    <div class="white4"></div>
+    <div class="white5"></div>
+    <div class="yello"></div>
+    <div class="blak"></div>
+
+  </div>
+</body>
+
+</html>
